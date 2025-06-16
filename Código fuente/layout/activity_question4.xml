@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#d5aaff"
+    android:gravity="center">
+
+    <TextView
+        android:text="¿Cuanto almacenamiento te gustaria?"
+        android:textSize="31sp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="(solo en SSD ya que se ah vuelto un estandar por su rapidez e eficiencia)."
+        android:textSize="15sp"
+        android:layout_marginBottom="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHDD"
+        android:text="512 GB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Es la capacidad recomendable para tener todo las aplicaciones, medianas, y tener un poco de espacio de sobra para tener algunos videojuegos."
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSSD"
+        android:text="1 TB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Es una capacidad mas que aceptable para tener bastantes archivos para productividad, asi como entretenimiento y tener aun asi espacio de sobra, pero cuesta mas."
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

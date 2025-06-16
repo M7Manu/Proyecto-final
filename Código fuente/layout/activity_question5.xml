@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#d5aaff"
+    android:gravity="center">
+
+    <TextView
+        android:text="¿Que resolución de pantalla te gustaria?"
+        android:textSize="31sp"
+        android:layout_marginBottom="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:text="1920x1080"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Esta resolución es la estandar en muchas computadoras con una buena relacion aspecto y es preferible en laptops no tan potentes o sin tanta demanda."
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn15"
+        android:text="2560x1440"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Esta resolución es mas demandante pero vale la pena, aunque en cierto aspecto por el tamaño de la laptop no se aprecia totalmente, es una gran diferencia ante la anterior resolucion"
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

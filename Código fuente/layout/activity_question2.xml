@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d5aaff"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:text="¿Que te gustaria elegir como primera opcion?"
+        android:textSize="35sp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCPU"
+        android:text="Procesador potente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="tendras un mejor desempeño en la mayoria de aplicaciones o tareas, por el amplio procesador del cerebro de la computadora."
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnGPU"
+        android:text="Gráfica potente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Tendras un mejor desempeño grafico o de poder bruto, como renderización, animaciones, y videojuegos."
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCPUGPU"
+        android:text="Ambos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Con esta opcion aumentara el precio de la laptop pero tendras el mejor rendimiento en general, con las ventajas ya mencionadas."
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

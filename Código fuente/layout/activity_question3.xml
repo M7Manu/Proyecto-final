@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#d5aaff"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="¿Cuánta RAM necesitas?"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btn8gb"
+        android:text="8 GB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Es lo minimo recomendable para tu laptop, para trabajos simples y uno que otro programa pequeño, aunque no es posible tener varias apps abiertas."
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn16gb"
+        android:text="16 GB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Es lo recomendable actualmente, para todo tipo de trabajo algo pesado como emulacion, diseño, renderizacion, edicion, y tener tambien varias pestañas abiertas"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn32gb"
+        android:text="32 GB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="En este caso podras tener abierto varias cosas al mismo tiempo, realizar cualquier tipo de trabajo, aunque tambien es la opcion mas cara."
+        android:textSize="15sp" />
+</LinearLayout>
